@@ -25,7 +25,7 @@ content-Type: application/json
 }
 
 ###
-PATCH  https://localhost:5050/user/65217cd92aeb5c0b6b3b216c HTTP/1.1
+PATCH  https://localhost:5050/user/65218b8e1b565c0a26f8b777 HTTP/1.1
 content-Type: application/json
 
 {
@@ -36,7 +36,7 @@ content-Type: application/json
 // You must change the id to the user created in mongodb
 
 ###
-DELETE   https://localhost:5050/user/65217cd92aeb5c0b6b3b216c HTTP/1.1
+DELETE   https://localhost:5050/user/65218b8e1b565c0a26f8b777 HTTP/1.1
 content-Type: application/json
 
 // You must change the id to the user created in mongodb
@@ -48,8 +48,6 @@ content-Type: application/json
 {
     "name": "record"
 }
-
-
 
 ###
 POST https://localhost:5050/record HTTP/1.1
